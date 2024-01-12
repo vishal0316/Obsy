@@ -29,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 3vw;
 }
 
 #line1-part1 {
@@ -36,15 +37,29 @@ body {
   gap: 2vw;
   justify-content: center;
   align-items: center;
-  gap: 3vw;
+  gap: 1.2vw;
 }
 #line1-part1 h5,
 #line1-part1 h6 {
-  font-size: 4vw;
+  font-size: 3vw;
+  font-weight: 100;
+  font-family: "silk serif";
+}
+
+#line1-part1 h5 {
+  /* background-color: red; */
+  width: 5vw;
+  text-align: right;
 }
 
 .line h1 {
-  font-size: 6.5vw;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.line h2 {
+  font-size: 5vw;
   text-transform: uppercase;
   font-weight: 900;
 }

@@ -107,24 +107,44 @@ body {
 #main {
   position: relative;
   background-color: #030303;
+  z-index: 99;
 }
 #page1 {
   height: 100vh;
   width: 100%;
-  background-color: #151515;
+  /* background-color: #151515; */
+  position: relative;
+  z-index: 100;
 }
 
 #page1 #nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 2.3vw 5.5vw;
 }
 
+/* .cod-logo img {
+  max-width: 100%;
+height: auto; 
+ } */
+
 #nav-part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 3vw;
 }
 
@@ -163,9 +183,98 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   line-height: 7.2vw;
+  border-bottom: 0.5vw solid #fff;
 }
 .hero h2:hover {
   -webkit-text-stroke: 2px #fff;
   color: transparent;
   font-weight: 500;
+  border-bottom: 0.5vw solid #ffffff00;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100%;
+  padding-top: 17vh;
+  position: relative;
+}
+
+#video-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+}
+
+#video-container {
+  height: 66vh;
+  width: 71vw;
+  position: relative;
+  left: 28%;
+  background-color: red;
+  background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#video-container video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#video-cursor {
+  background-color: #ffa63d;
+  height: 9vw;
+  width: 9vw;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  left: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+#video-cursor i {
+  font-size: 2vw;
+}
+
+#page3 {
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: rgb(61, 61, 61); */
+  position: relative;
+  padding: 17vh 2vw;
+  margin-bottom: 20vh;
+  margin-top: 20vh;
+}
+
+#page3 h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 28vw;
+}
+
+#page3 h1::before {
+  content: "02";
+  position: absolute;
+  font-size: 3vw;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -12%;
+  top: 8%;
+}
+
+#page3 .underline {
+  margin-left: 28vw;
 }

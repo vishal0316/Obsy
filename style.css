@@ -278,3 +278,40 @@ height: auto;
 #page3 .underline {
   margin-left: 28vw;
 }
+
+#page4 {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  /* background-color: rgb(61, 61, 61); */
+  padding: 7vh 0;
+}
+
+#page4-content {
+  width: 72vw;
+  position: relative;
+
+  margin-left: 28%;
+}
+
+#page4-content h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#page4-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page4-flex img {
+  width: 48%;
+}
+
+#page4-flex p {
+  font-size: 0.9vw;
+  width: 19%;
+  margin-left: 1vw;
+}

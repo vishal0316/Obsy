@@ -24,7 +24,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Plain Light";
-  color: #fff;
+  color: #a4f63c;
 }
 
 html,
@@ -49,7 +49,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 9999;
-  background-color: #030303;
+  background-color: #1f222b;
   padding: 25vh 10vw;
 }
 
@@ -311,7 +311,7 @@ body {
 }
 
 #video-cursor {
-  background-color: #ffa63d;
+  background-color: #f3a64e;
   height: 9vw;
   width: 9vw;
   border-radius: 50%;
@@ -501,6 +501,8 @@ body {
 
 .page3-circle1:hover .circle-in {
   scale: 1;
+  background-color: #ffa63d;
+  border: 4px solid black;
 }
 
 .page3-circle1:hover p {
@@ -510,6 +512,8 @@ body {
 
 .page3-circle2:hover .circle-in {
   scale: 1;
+  background-color: #3f7df4;
+  border: 4px solid black;
 }
 
 .page3-circle2:hover p {
@@ -578,7 +582,7 @@ body {
 }
 
 #page4-blue-div {
-  background-color: #3f7df4;
+  background-color: #6035f4;
   width: 33vw;
   padding: 3vw;
   position: relative;
@@ -602,11 +606,13 @@ body {
 }
 
 .blue-div-elem h4 {
-  font-size: 1.4vw;
-  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  font-weight: 600;
 }
 
 .blue-div-elem p {
+  color: whitesmoke;
   width: 40%;
   font-size: 0.8vw;
 }
@@ -1444,13 +1450,13 @@ body {
   }
 
   #footer {
-    height: 108vh;
+    height: 100vh;
     width: 100%;
     /* background-color: red; */
     margin-top: 20vw;
     position: relative;
     padding: 5vw 5vw;
-    padding-bottom: 5vw;
+    /* padding-bottom: 5vw; */
   }
 
   #footer h1 {
@@ -1488,7 +1494,7 @@ body {
   #footer-text h2 span {
     font-family: "silk serif";
     opacity: 0;
-    -webkit-text-stroke: 1px #fff;
+    /* -webkit-text-stroke: 1px #fff; */
     color: transparent;
   }
 

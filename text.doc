@@ -4,6 +4,7 @@ js
 gsap
 locomotive for scrolling
 library - shery.js
+mobile responsive using media queries
 
 #fafbf8 white
 #009bdd blue

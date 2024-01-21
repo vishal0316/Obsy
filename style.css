@@ -312,6 +312,7 @@ body {
 
 #video-cursor {
   background-color: #f3a64e;
+  border: 4px solid black;
   height: 9vw;
   width: 9vw;
   border-radius: 50%;
@@ -332,6 +333,7 @@ body {
 
 #video-cursor i {
   font-size: 2vw;
+  color: #000;
 }
 
 #page3 {

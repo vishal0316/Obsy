@@ -26,7 +26,7 @@ Obsy Agency Clone is a website project created with HTML, CSS, and JavaScript. T
 3. Explore the Obsy Agency Clone and experience the features!
 
 ## Live Demo
-Check out the live demo: Obsy Agency Clone
+Check out the live demo: https://vishal0316.github.io/Obsy/
 
 ## Contributing
 If you'd like to contribute to the project, feel free to submit a pull request. Your contributions are highly welcome!
